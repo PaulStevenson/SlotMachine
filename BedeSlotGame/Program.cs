@@ -22,7 +22,6 @@ namespace BedeSlotGame
                     services.AddTransient<ISymbolGenerator, SymbolGenertor>();
                     services.AddTransient<IStartGame, StartGame>();
                     services.AddTransient<IContinueGame, ContinueGame>();
-                    //services.AddTransient<IIsGameOver, >();
                     services.AddTransient<ICalculateRow, CalculateRow>();
                 })
 
