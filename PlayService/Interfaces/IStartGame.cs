@@ -1,5 +1,4 @@
-﻿using System;
-namespace PlayService.Interfaces
+﻿namespace PlayService.Interfaces
 {
     public interface IStartGame
     {

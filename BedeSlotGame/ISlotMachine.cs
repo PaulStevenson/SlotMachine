@@ -1,5 +1,4 @@
-﻿using System;
-namespace BedeSlotGame
+﻿namespace BedeSlotGame
 {
     public interface ISlotMachine
     {

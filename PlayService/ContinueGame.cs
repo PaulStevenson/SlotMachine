@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using PlayService.Interfaces;
 
@@ -7,10 +6,6 @@ namespace PlayService.Models
 {
     public class ContinueGame : IContinueGame
     {
-        public ContinueGame()
-        {
-        }
-
         public bool CanPlayAgain(int balance)
         {
             return balance > 0;
