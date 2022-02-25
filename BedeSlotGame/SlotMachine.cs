@@ -1,10 +1,21 @@
 ﻿using System;
+using PlayService.Interfaces;
+
 namespace BedeSlotGame
 {
-    public class SlotMachine
+    public class SlotMachine : ISlotMachine
     {
-        public SlotMachine()
+        private readonly IStartGame _startGame;
+        public SlotMachine(
+            IStartGame startGame
+            )
         {
+            _startGame = startGame;
+        }
+
+        public void BedeSlot()
+        {
+            _startGame.Start();
         }
     }
 }

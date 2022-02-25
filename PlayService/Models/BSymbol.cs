@@ -1,11 +1,11 @@
 ﻿namespace PlayService.Models
 {
-    public class Symbol
+    public class BSymbol : ISymbol
     {
-        public string SlotSymbol { get; } = "A";
+        public string SlotSymbol { get; } = "B";
 
-        public double Coefficient { get; } = 0.4;
+        public double Coefficient { get; } = 0.6;
 
-        public int Probability { get; } = 45;
+        public int Probability { get; } = 35;
     }
 }

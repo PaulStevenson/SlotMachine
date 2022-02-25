@@ -1,10 +1,11 @@
-﻿using System;
-namespace PlayService.Models
+﻿namespace PlayService.Models
 {
-    public class Symbol
+    public interface ISymbol
     {
-        public Symbol()
-        {
-        }
+        public string SlotSymbol { get; }
+
+        public double Coefficient { get; }
+
+        public int Probability { get; }
     }
 }

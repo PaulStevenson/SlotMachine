@@ -1,11 +1,11 @@
 ﻿namespace PlayService.Models
 {
-    public class Symbol
+    public class WildcardSymbol : ISymbol
     {
-        public string SlotSymbol { get; } = "A";
+        public string SlotSymbol { get; } = "*";
 
-        public double Coefficient { get; } = 0.4;
+        public double Coefficient { get; } = 0;
 
-        public int Probability { get; } = 45;
+        public int Probability { get; } = 5;
     }
 }
